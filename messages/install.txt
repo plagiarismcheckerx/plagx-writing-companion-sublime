@@ -1,0 +1,18 @@
+Plagx Writing Companion
+=======================
+
+Free academic writing checks for Markdown, plain text and LaTeX:
+citations and reference lists, BibTeX, word limits, basic grammar
+and punctuation suggestions, and writing readiness.
+
+Open a .md, .txt or .tex file and suggestions appear as underlines.
+Hover an underline to see the message and apply a fix.
+
+Commands: open the Command Palette and type "Plagx".
+Settings: Preferences > Package Settings > Plagx Writing Companion.
+
+All checks run locally. Only "Insert Reference from DOI" and the
+optional online DOI check contact the public Crossref API.
+
+By Plagiarism Checker X. This free package does not detect
+plagiarism or AI-generated text.

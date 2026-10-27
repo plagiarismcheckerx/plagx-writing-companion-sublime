@@ -1,0 +1,20 @@
+{
+	// Citation style for in-text citation checks and formatted references: "apa" or "mla".
+	"style": "apa",
+
+	// Word limits (the reference list isn't counted). null means no limit.
+	"min_words": null,
+	"max_words": null,
+
+	// Headings the draft must contain, e.g. ["Introduction", "Conclusion"].
+	"required_headings": [],
+
+	// Check groups: "length", "references", "punctuation", "grammar", "passive-voice".
+	"checks": ["length", "references", "punctuation", "grammar"],
+
+	// Files checked automatically (scope selector): Markdown, plain text and LaTeX.
+	"selector": "text.html.markdown, text.plain, text.tex",
+
+	// When drafts are checked: "type" (as you type), "save" or "manual".
+	"check_on": "type"
+}

@@ -1,0 +1,16 @@
+[
+	{ "caption": "Plagx: Check Draft", "command": "plagx_check_draft" },
+	{ "caption": "Plagx: Show Writing Readiness", "command": "plagx_show_readiness" },
+	{ "caption": "Plagx: Format BibTeX as Reference List", "command": "plagx_format_bibliography" },
+	{ "caption": "Plagx: Check BibTeX References", "command": "plagx_check_bibliography" },
+	{ "caption": "Plagx: Insert Reference from DOI", "command": "plagx_cite_doi" },
+	{ "caption": "Plagx: Clear Suggestions", "command": "plagx_clear" },
+	{
+		"caption": "Preferences: Plagx Writing Companion Settings",
+		"command": "edit_settings",
+		"args": {
+			"base_file": "${packages}/Plagx Writing Companion/Plagx Writing Companion.sublime-settings",
+			"default": "{\n\t$0\n}\n"
+		}
+	}
+]
